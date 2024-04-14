@@ -59,7 +59,7 @@ Here’s some sample Hackett code that demonstrates some of Hackett’s features
 
 To reiterate: **Hackett is extremely experimental right now.** Things are not guaranteed to work correctly (or work at all), and things are likely to change dramatically. If you really want to install Hackett to play around with it, though, you can.
 
-You will need to have Racket installed to use Hackett. Using `raco`, you can install Hackett as a package:
+You will need to have Racket v6 installed to use Hackett. Using `raco`, you can install Hackett as a package:
 
 ```
 $ raco pkg install hackett
@@ -69,3 +69,9 @@ Now you can use Hackett by writing `#lang hackett` at the top of a file.
 
 [hackett-docs]: https://lexi-lambda.github.io/hackett/
 [types-as-macros]: http://www.ccs.neu.edu/home/stchang/pubs/ckg-popl2017.pdf
+
+### Nix
+
+Since Racket v6 is quite old, `shell.nix` is provided for convenience. Use `nix-shell` to enter shell with Racket v6.12.
+
+> To install Nix, use either [official](https://nixos.org/download/) or [modernized](https://determinate.systems/posts/determinate-nix-installer/) installer.
