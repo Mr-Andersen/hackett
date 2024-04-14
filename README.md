@@ -75,3 +75,5 @@ Now you can use Hackett by writing `#lang hackett` at the top of a file.
 Since Racket v6 is quite old, `shell.nix` is provided for convenience. Use `nix-shell` to enter shell with Racket v6.12.
 
 > To install Nix, use either [official](https://nixos.org/download/) or [modernized](https://determinate.systems/posts/determinate-nix-installer/) installer.
+
+> Note that you don't need this repository cloned to use the `shell.nix`. Only file itself is needed.
